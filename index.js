@@ -4,7 +4,7 @@ const dnes = dayjs()
 document.body.innerHTML += "<h1>Už jsou z nás absolventky?</h1>"
 
 if (dnes.isAfter(udalost)) {
-    document.body.innerHTML += '<h3>ANO!!Ještě ne</h3>';
+    document.body.innerHTML += '<h3>ANO!! GRATULUJI !!</h3>';
   } else {
     document.body.innerHTML += '<h3>Ještě ne</h3>';
   }
